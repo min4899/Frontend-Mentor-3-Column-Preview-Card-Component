@@ -38,6 +38,18 @@ p {
   color: var(--transparentWhite);
 }
 
+.color1 {
+  color: var(--orange);
+}
+
+.color2 {
+  color: var(--cyan);
+}
+
+.color3 {
+  color: var(--darkCyan);
+}
+
 .background1 {
   background: var(--orange);
 }
@@ -65,4 +77,13 @@ p {
 
 .car-icon {
   width: 5em;
+}
+
+.learn-more-button {
+  background: var(--lightGrey);
+  width: fit-content;
+  padding: 0.8rem 2rem;
+  border-radius: 1.7rem;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
