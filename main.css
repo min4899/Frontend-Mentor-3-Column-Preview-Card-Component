@@ -26,3 +26,39 @@ body {
   place-items: center;
   height: 100vh;
 }
+
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--lightGrey);
+}
+
+p {
+  color: var(--transparentWhite);
+}
+
+.background1 {
+  background: var(--orange);
+}
+
+.background2 {
+  background: var(--cyan);
+}
+
+.background3 {
+  background: var(--darkCyan);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  padding: 2rem;
+  gap: 2.2rem;
+}
