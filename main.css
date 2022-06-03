@@ -1,0 +1,28 @@
+:root {
+  --white: #ffffff;
+  --transparentWhite: hsla(0, 0%, 100%, 0.75);
+  --lightGrey: hsl(0, 0%, 95%);
+  --orange: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --darkCyan: hsl(179, 100%, 13%);
+}
+
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
