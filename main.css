@@ -81,9 +81,15 @@ p {
 
 .learn-more-button {
   background: var(--lightGrey);
+  border: 0.15rem solid var(--lightGrey);
   width: fit-content;
-  padding: 0.8rem 2rem;
-  border-radius: 1.7rem;
-  font-size: 1.1rem;
+  padding: 0.6rem 1.8rem;
+  border-radius: 1.5rem;
   font-weight: 500;
+}
+
+.learn-more-button:hover {
+  cursor: pointer;
+  background: transparent;
+  color: var(--lightGrey);
 }
