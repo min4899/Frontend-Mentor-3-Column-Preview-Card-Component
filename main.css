@@ -100,3 +100,18 @@ p {
   background: transparent;
   color: var(--lightGrey);
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 6rem 0;
+    height: auto;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .card-section {
+    width: 22rem;
+  }
+}
