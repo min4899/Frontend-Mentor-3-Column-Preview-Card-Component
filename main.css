@@ -29,7 +29,7 @@ body {
 
 h1 {
   font-family: "Big Shoulders Display", sans-serif;
-  font-size: 2.7rem;
+  font-size: 2.6rem;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--lightGrey);
@@ -81,7 +81,6 @@ p {
   flex-direction: column;
   max-width: 20.5rem;
   padding: 3.3rem;
-  /* gap: 2.6rem; */
 }
 
 .car-icon {
@@ -95,7 +94,7 @@ p {
   padding: 0.6rem 1.9rem;
   background: var(--lightGrey);
   border: 0.15rem solid var(--lightGrey);
-  border-radius: 1.5rem;
+  border-radius: 1.7rem;
   font-weight: 500;
 }
 
@@ -119,6 +118,6 @@ p {
   }
 
   .learn-more-button {
-    margin-top: 1.6rem;
+    margin-top: 1.8rem;
   }
 }
