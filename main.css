@@ -68,6 +68,7 @@ p {
 }
 
 .card {
+  z-index: 1;
   display: flex;
   flex-direction: row;
   overflow: hidden;
@@ -104,6 +105,13 @@ p {
   color: var(--lightGrey);
 }
 
+.attribution {
+  z-index: 0;
+  position: absolute;
+  bottom: 1rem;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   body {
     height: auto;
@@ -119,5 +127,9 @@ p {
 
   .learn-more-button {
     margin-top: 1.8rem;
+  }
+
+  .attribution {
+    position: relative;
   }
 }
