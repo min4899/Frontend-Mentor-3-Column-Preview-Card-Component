@@ -97,6 +97,7 @@ p {
   border: 0.15rem solid var(--lightGrey);
   border-radius: 1.7rem;
   font-weight: 500;
+  transition: 0.1s linear;
 }
 
 .learn-more-button:hover {
